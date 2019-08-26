@@ -6,7 +6,8 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: #ddd url("img/bg.jpeg") no-repeat left top;
+  background: #ddd no-repeat left top;
+  background-image: url("./img/bg.jpeg");
   background-size: 100% 100vh;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -70,6 +71,10 @@ nav {
   color: #ddd;
 }
 
+.slider i {
+  cursor: pointer;
+}
+
 .slider .active {
   color: gray;
 }
@@ -108,9 +113,6 @@ nav {
 .product-name {
   font-weight: 700;
   margin-bottom: 5px;
-}
-
-.product-img {
 }
 
 .active-box {
